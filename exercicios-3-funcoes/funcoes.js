@@ -95,17 +95,30 @@
 
 // console.log(resultado);
 
-function fatorial(numero) {
+// DESAFIO FATORIAL
 
-  let acumulador = 1
+// function fatorial(numero) {
 
-  for (let multiplicador = numero; multiplicador >= 1; multiplicador--) {
+//   let acumulador = 1
 
-    acumulador = acumulador * multiplicador
+//   for (let multiplicador = numero; multiplicador >= 1; multiplicador--) {
 
+//     acumulador = acumulador * multiplicador
+
+//   }
+
+//   return acumulador
+// }
+
+// const decrescente = fatorial(5)
+
+// DESAFIO 2 
+
+function contagemRegressiva(numero){
+  for(let i = numero; i >= 0; i--) {
+    console.log(i);
+    
   }
-
-  return acumulador
 }
 
-const decrescente = fatorial(5)
+contagemRegressiva(10)
