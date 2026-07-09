@@ -114,11 +114,27 @@
 
 // DESAFIO 2 
 
-function contagemRegressiva(numero){
-  for(let i = numero; i >= 0; i--) {
-    console.log(i);
+// function contagemRegressiva(numero){
+//   for(let i = numero; i >= 0; i--) {
+//     console.log(i);
+    
+//   }
+// }
+
+// contagemRegressiva(10)
+
+// DESAFIO 3
+
+
+function desenharQuadrado(tamanho) {
+  for(let linha = 1; linha <= tamanho; linha ++) {
+    let resultado = ''
+    for(let contador = 1; contador <= tamanho; contador ++) {
+      resultado += '*'
+    }
+    console.log(resultado);
     
   }
 }
 
-contagemRegressiva(10)
+const asteristicos = desenharQuadrado(4)
