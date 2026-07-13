@@ -126,15 +126,15 @@
 // DESAFIO 3
 
 
-function desenharQuadrado(tamanho) {
-  for(let linha = 1; linha <= tamanho; linha ++) {
-    let resultado = ''
-    for(let contador = 1; contador <= tamanho; contador ++) {
-      resultado += '*'
-    }
-    console.log(resultado);
+// function desenharQuadrado(tamanho) {
+//   for(let linha = 1; linha <= tamanho; linha ++) {
+//     let resultado = ''
+//     for(let contador = 1; contador <= tamanho; contador ++) {
+//       resultado += '*'
+//     }
+//     console.log(resultado);
     
-  }
-}
+//   }
+// }
 
-const asteristicos = desenharQuadrado(4)
+// desenharQuadrado(4)
