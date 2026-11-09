@@ -89,10 +89,4 @@ const atualizarVitrine = () => {
 atualizarVitrine();
 
 
-// console.log(registrarSaida(1,2));
-
-// console.log(registrarEntrada(3,10));
-
-// console.log(registrarSaida(4,20));
-
 
